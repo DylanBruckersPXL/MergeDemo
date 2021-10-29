@@ -24,5 +24,10 @@ namespace MergeDEMO
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Dit wordt een merge conflict");
+        }
     }
 }
