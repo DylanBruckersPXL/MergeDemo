@@ -27,7 +27,10 @@ namespace MergeDEMO
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            MessageBox.Show("Dit wordt een merge conflict");
             this.Close();
+
         }
     }
 }
